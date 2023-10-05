@@ -1,11 +1,11 @@
-package com.example;
+package com.hidehotairballoons;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("hidehotairballoons")
+public interface HideHotAirBalloonsConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
